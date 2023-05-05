@@ -1,0 +1,39 @@
+/* .container {
+	padding-left: 20px;
+	padding-right: 20px;
+} */
+@media screen and (min-width: 375px) {
+	.container {
+		width: 335px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.about {}
+
+.container-about {}
+
+.section-about-title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.25;
+	letter-spacing: -0.02em;
+	color: #1E2827;
+	margin-bottom: 40px;
+}
+
+.section-about-subtitle {
+	font-family: 'Epilogue';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.29;
+	letter-spacing: -0.02em;
+	color: #141414;
+}
+
+.section-about-gif {}
