@@ -2,7 +2,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: calc(40 / 32);
-  color: #141414;
+  /* color: #141414; */
   margin-bottom: 40px;
 }
 .sale-watch-img {
@@ -24,24 +24,24 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1;
-  color: #141414;
+  /* color: #141414; */
   margin-bottom: 8px;
 }
 .sale-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: calc(18 / 14);
   color: rgba(20, 20, 20, 0.5);
 }
 .sale-cost {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 18px;
   line-height: calc(24 / 18);
-  color: #141414;
+  /* color: #141414; */
   margin-top: 16px;
 }
 .sale-cost-2 {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 12px;
   line-height: calc(14 / 12);
   text-decoration-line: line-through;
@@ -51,9 +51,9 @@
 .sale-characteristic-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: calc(24 / 18);
   text-transform: uppercase;
-  color: #141414;
+  /* color: #141414; */
   padding: 8px 0;
   margin-bottom: 9px;
   border-top: 1px solid #141414;
