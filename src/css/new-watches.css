@@ -1,0 +1,55 @@
+.section-new {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-new {
+	max-width: 335px;
+}
+
+.section-new-subtitle {
+	font-family: 'Epilogue';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.06em;
+	color: rgba(20, 20, 20, 0.4);
+}
+
+.section-new-title {
+	font-family: 'Epilogue';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.25;
+	letter-spacing: -0.02em;
+	color: #141414;
+}
+
+.new-list {}
+
+.new-item {}
+
+.new-link {}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 704px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+}
+
+
+@media screen and (min-width: 1280px) {
+	.container {
+		width: 1176px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 132px;
+		padding-right: 132px;
+	}
+}
