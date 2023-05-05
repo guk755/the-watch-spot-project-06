@@ -1,11 +1,11 @@
-:root {
+/* :root {
     --body-color: #FFFFFF;
     --text-headlines: #141414;
     --text-p: rgba(20, 20, 20, 0.5);
-}
+} */
 
 body {
-    background-color: var(--body-color);
+    background-color: #FFFFFF;
     font-family: "Epilogue", sans-serif;
     letter-spacing: -0.02em;
 }
@@ -31,7 +31,7 @@ img {
     font-weight: 600;
     font-size: 32px;
     line-height: calc(40 / 32);
-    color: var(--text-headlines);
+    color: #141414;
     margin-bottom: 40px;
 }
 .sale-watch-img {
@@ -53,20 +53,20 @@ img {
     font-weight: 400;
     font-size: 24px;
     line-height: 1;
-    color: var(--text-headlines);
+    color: #141414;
     margin-bottom: 8px;
 }
 .sale-text {
     font-weight: 400;
     font-size: 14px;
     line-height: calc(18 / 14);
-    color: var(--text-p);
+    color: rgba(20, 20, 20, 0.5);
 }
 .sale-cost {
     font-weight: 400;
     font-size: 18px;
     line-height: calc(24 / 18);
-    color: var(--text-headlines);
+    color: #141414;
     margin-top: 16px;
 }
 .sale-cost-2 {
@@ -74,7 +74,7 @@ img {
     font-size: 12px;
     line-height: calc(14 / 12);
     text-decoration-line: line-through;
-    color: var(--text-p);
+    color: rgba(20, 20, 20, 0.5);
     margin-left: 8px;
 }
 .sale-characteristic-title {
@@ -82,7 +82,7 @@ img {
     font-size: 18px;
     line-height: 24px;
     text-transform: uppercase;
-    color: var(--text-headlines);
+    color: #141414;
     padding: 8px 0;
     margin-bottom: 9px;
     border-top: 1px solid #141414;
