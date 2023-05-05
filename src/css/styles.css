@@ -32,6 +32,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  background-color: #ffffff;
+  font-family: 'Epilogue', sans-serif;
+  letter-spacing: -0.02em;
+}
+
 .container {
   padding: 0 20px;
   width: 100%;
