@@ -1,7 +1,7 @@
 /* _________________section Catalog_________________ */
 .catalog {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .catalog-tytle {
@@ -68,6 +68,9 @@
 }
 
 .overlay-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
   height: 18px;
   font-size: 14px;
   line-height: 1.28;
@@ -78,6 +81,7 @@
 }
 
 .overlay-description-text {
+  font-weight: 400;
   width: 236px;
   height: 53px;
   font-size: 14px;
@@ -88,6 +92,7 @@
 }
 
 .overlay-gender-text {
+  font-weight: 400;
   width: 162px;
   height: 144px;
   font-size: 14px;
@@ -101,17 +106,19 @@
 }
 
 .catalog-watches-tytle {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #141414;
   margin-bottom: 4px;
-  width: 276px;
+  width: 257px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .catalog-watches-price {
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: -0.02em;
@@ -150,6 +157,10 @@
   .container {
     max-width: 768px;
   }
+  .catalog {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
   .catalog-tytle {
     font-size: 40px;
     line-height: 1.1;
@@ -169,6 +180,10 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+  }
+  .catalog {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .catalog-tytle {
     margin-bottom: 64px;
