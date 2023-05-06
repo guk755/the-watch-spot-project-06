@@ -8,7 +8,7 @@
 @media screen and (min-width: 375px) {
 .container {
 width: 375px;
-}
+  }
 }
 
 .container-about-title {
@@ -37,9 +37,6 @@ width: 375px;
 	letter-spacing: -0.02em;
 	color: #141414;
 }
-
-.section-about-gif {}
-
 
 
 @media screen and (min-width: 768px) {
