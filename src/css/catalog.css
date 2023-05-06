@@ -1,0 +1,199 @@
+/* _________________section Catalog_________________ */
+.catalog {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.catalog-tytle {
+  height: 44px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
+}
+
+.catalog-watches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.catalog-watches-item {
+  width: 335px;
+  height: 410px;
+  position: relative;
+}
+
+.catalog-overlay-link {
+  display: block;
+  height: 410px;
+}
+
+.catalog-icons {
+  position: absolute;
+  display: inline-block;
+  stroke-width: 0;
+  stroke: rgba(20, 20, 20, 0.1);
+  fill: #ffffff;
+  right: 14px;
+  top: 14px;
+}
+
+.watches-overlay {
+  width: 336px;
+  height: 360px;
+  position: relative;
+  margin-bottom: 14px;
+  overflow: hidden;
+  padding-top: 43px;
+}
+
+.catalog-overlay-info {
+  position: absolute;
+  top: 0;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #1e2827;
+  border-radius: 8px;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}
+
+.catalog-overlay-link:hover .catalog-overlay-info {
+  transform: translate(0);
+  transition: transform 300ms linear;
+}
+
+.overlay-description {
+  height: 18px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.overlay-description-text {
+  width: 236px;
+  height: 53px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.overlay-gender-text {
+  width: 162px;
+  height: 144px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.catalog-watches-name {
+  height: 36px;
+}
+
+.catalog-watches-tytle {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-bottom: 4px;
+  width: 276px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.catalog-watches-price {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.buy-now-btn {
+  font-size: 12px;
+  line-height: 1.16;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 13px 28px;
+  min-width: 108px;
+  height: 42px;
+  background: #1e2827;
+  border-radius: 8px;
+  border: transparent;
+  display: block;
+  margin-left: auto;
+  margin-top: 40px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.buy-now-btn:hover,
+.buy-now-btn:focus {
+  border: 1px solid #ffffff;
+}
+
+.catalog-watches-item-desktop {
+  display: none;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .catalog-tytle {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .catalog-watches-list {
+    flex-direction: row;
+    gap: 40px 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .catalog-watches-name {
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .catalog-tytle {
+    margin-bottom: 64px;
+  }
+  .catalog-watches-item {
+    width: 276px;
+    height: 375px;
+  }
+  .catalog-watches-item-desktop {
+    width: 276px;
+    height: 375px;
+    display: block;
+  }
+  .catalog-watches-list {
+    gap: 64px 24px;
+  }
+
+  .watches-overlay {
+    width: 276px;
+    height: 325px;
+  }
+  .catalog-watches-name {
+    height: 36px;
+  }
+  .catalog-watches-tytle {
+    width: 230px;
+  }
+}
