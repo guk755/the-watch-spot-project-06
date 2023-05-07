@@ -1,9 +1,14 @@
        /* MOBILE */
 
 @media screen and (min-width: 375px) {
-.section-about-title {
-	width: 139px;
-} 
+  .container {
+		max-width: 335px;
+		width: 100%;
+	}
+
+  .section-about-title {
+	  width: 139px;
+ } 
 }
 @media screen and (max-width: 767px){
 	.about > .container, .container-about-wrap {
