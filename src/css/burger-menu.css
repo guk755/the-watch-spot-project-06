@@ -66,6 +66,10 @@
     fill: #FFFFFF;
 }
 
+.mobile-menu-logo-text {
+    margin-left: 4px;
+}
+
 .mobile-menu-close-btn {
     /* position: absolute;
     top: 24px;
