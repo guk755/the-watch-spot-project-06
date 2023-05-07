@@ -227,6 +227,11 @@
     display: block;
   }
 
+  .hero-text {
+    width: 282px;
+    height: 90px;
+  }
+
   .container-swiper {
     gap: 64px;
   }
