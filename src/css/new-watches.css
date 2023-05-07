@@ -30,6 +30,7 @@
 	}
 	} 
 
+
 .section-new-title {
 	font-weight: 600;
 	font-size: 32px;
@@ -53,7 +54,7 @@
 		height: 88px;
 		margin-bottom: 40px;
 	}
-}
+} 
 .section-new-subtitle {
 	line-height: 1.17;
 	letter-spacing: 0.06em;
@@ -87,11 +88,11 @@
 		justify-content: center;
 		gap: 24px;
 	}
-		.section-new-title {
-			width: 444px;
-			height: 88px;
-			margin-bottom: 80px;
-		}
+	.section-new-title {
+		width: 444px;
+		height: 88px;
+		margin-bottom: 80px;
+	} 
 }
 
 .section-new-subtitle {
