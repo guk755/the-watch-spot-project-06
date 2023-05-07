@@ -85,10 +85,6 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.catalog-watches-name {
-  height: 36px;
-}
-
 .catalog-watches-tytle {
   font-weight: 400;
   font-size: 14px;
@@ -164,9 +160,6 @@
     font-size: 40px;
     line-height: calc(44 / 40);
   }
-  .catalog-watches-name {
-    height: 40px;
-  }
   .catalog-icons {
     position: absolute;
     display: inline-block;
@@ -199,7 +192,7 @@
     height: 325px;
   }
   .catalog-overlay-info {
-    padding: 20px;
+    padding: 26px 20px 20px 20px;
   }
   .catalog-watches-item-desktop {
     display: block;
@@ -215,9 +208,7 @@
 
   .catalog-tytle {
     margin-left: 30px;
-  }
-  .catalog-watches-name {
-    height: 36px;
+    margin-bottom: 64px;
   }
   .catalog-icons {
     display: none;
