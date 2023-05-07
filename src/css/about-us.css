@@ -1,26 +1,15 @@
+       /* MOBILE */
 @media screen and (min-width: 375px) {
-	.container {
-			width: 335px;
-			padding: 0 20px;
-	}
-}
-@media screen and (min-width: 375px) {
-.container {
-width: 375px;
-  }
-}
-@media screen and (min-width: 375px) {
-.container-about-title {
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
-	}
-}
 
-
-.container-about-title {
-	width: 335px;
+.section-about-title {
+	width: 139px;
 } 
+}
+
+.container-about-wrap {
+	width: 335px;
+	margin-bottom: 40px;
+}
 
 .section-about-title {
 	font-weight: 600;
@@ -31,7 +20,16 @@ width: 375px;
 	margin-bottom: 40px;
 }
 
-.section-about-subtitle {
+.section-about-subtitle-one {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.29;
+	letter-spacing: -0.02em;
+	color: #141414;
+	margin-bottom: 20px;
+}
+
+.section-about-subtitle-two {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.29;
@@ -43,17 +41,34 @@ width: 375px;
 object-fit: cover;
 }
 
+              /* TABLET */
+
 @media screen and (min-width: 768px) {
 .container {
-		width: 768px;
-	  padding: 0 32px;
+	width: 768px;
+	padding: 0 32px;
 	}
-}
 
-.container-about-title {
+.container-about-wrap {
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
+	}
+
+	.container-about-wrap {
+		width: 768px;
+	}
+
+	.section-about-subtitle-one {
+		width: 250px;
+	}
+
+	.section-about-subtitle-two {
+		width: 220px;
+	}
+	.section-about-title {
+		width: 174px;
+	}
 }
 
 .section-about-title {
@@ -66,15 +81,7 @@ object-fit: cover;
 	margin-bottom: 40px;
 }
 
-.section-about-subtitle {
-	width: 220px;
-	font-weight: 300;
-	font-size: 14px;
-	line-height: 1.29;
-	letter-spacing: -0.02em;
-	color: #141414;
-}
-
+                 /* DESCTOP */
 
 
 @media screen and (min-width: 1280px) {
@@ -82,15 +89,22 @@ object-fit: cover;
 		width: 1176px;
 		padding: 0 132px;
 	}
-}
+	.container-about-wrap {
+		display: flex;
+		flex-direction: row;
+		gap: 40px;
+	}
+	.container-about-wrap {
+		width: 1176px;
+	}
 
-.container-about-title {
-	display: flex;
-	flex-direction: row;
-	gap: 20px;
-}
+	.section-about-subtitle-one {
+		width: 439px;
+	}
+			
+	.section-about-subtitle-two {
+		width: 380px;
+	}
+} 
 
-/* .container-about-title {
-	width: 1176px;
-} */
 
