@@ -13,6 +13,7 @@
 		gap: 40px;
 	}
 }
+
 .container-about-wrap {
 	width: 335px;
 }
@@ -45,7 +46,7 @@
 object-fit: cover;
 }
 
-              /* TABLET */
+/* TABLET */
 
 @media screen and (min-width: 768px) {
 .container {
@@ -117,6 +118,7 @@ object-fit: cover;
 	  gap: 40px;
 	}
 }
+
 	.section-about-subtitle-one {
 		width: 439px;
 	}
