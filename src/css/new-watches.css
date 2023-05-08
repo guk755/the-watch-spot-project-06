@@ -23,6 +23,14 @@
 	margin-bottom: 8px;
 }
 
+.section-new-title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.25;
+	letter-spacing: -0.02em;
+	color: #141414;
+}
+
 @media screen and (max-width: 767px) {
 	.section-new-title {
 		width: 335px;
@@ -31,14 +39,6 @@
 	}
 	} 
 
-
-.section-new-title {
-	font-weight: 600;
-	font-size: 32px;
-	line-height: 1.25;
-	letter-spacing: -0.02em;
-	color: #141414;
-}
 
 /* TABLET */
 
@@ -55,26 +55,27 @@
 		height: 88px;
 		margin-bottom: 40px;
 	}
+		.section-new-subtitle {
+			line-height: 1.17;
+			letter-spacing: 0.06em;
+			color: rgba(20, 20, 20, 0.4);
+			margin-bottom: 8px;
+		}
+	
+		.section-new-title {
+			font-weight: 600;
+			font-size: 40px;
+			line-height: 1.1;
+			letter-spacing: -0.02em;
+			color: #1E2827;
+		}
+	
+		.new-list {
+			display: flex;
+			justify-content: center;
+		}
 } 
-.section-new-subtitle {
-	line-height: 1.17;
-	letter-spacing: 0.06em;
-	color: rgba(20, 20, 20, 0.4);
-	margin-bottom: 8px;
-}
 
-.section-new-title {
-	font-weight: 600;
-	font-size: 40px;
-	line-height: 1.1;
-	letter-spacing: -0.02em;
-  color: #1E2827;
-}
-
-.new-list {
-	display: flex;
-	justify-content: center;
-}
 
 /* DESCTOP */
 
@@ -94,11 +95,12 @@
 		height: 88px;
 		margin-bottom: 80px;
 	} 
+		.section-new-subtitle {
+			line-height: 1.17;
+			letter-spacing: 0.06em;
+			color: rgba(20, 20, 20, 0.4);
+			margin-bottom: 8px;
+		}
 }
 
-.section-new-subtitle {
-	line-height: 1.17;
-	letter-spacing: 0.06em;
-	color: rgba(20, 20, 20, 0.4);
-	margin-bottom: 8px;
-} 
+
