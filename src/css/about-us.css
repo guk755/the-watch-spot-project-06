@@ -53,8 +53,48 @@
 	}
 }
 
+/* tablet */
 
+@media screen and (min-width: 768px) {
+	.container-about-us {
+		width: 768px;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
 
+	.container-about-us-wrap {
+		width: 704px;
+	}
+}
+
+.container-about-us-wrap {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.section-about-us-title {
+	width: 174px;
+	margin-bottom: 0;
+}
+
+.section-about-us-subtitle-one {
+	width: 250px;
+	margin-bottom: 0;
+}
+
+.section-about-us-subtitle-two {
+	width: 220px;
+	margin-bottom: 0;
+}
+
+.section-about-us-title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+	color: #1E2827;
+}
 
 
 
