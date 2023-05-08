@@ -210,7 +210,7 @@ header {
 @media screen and (min-width: 768px) {
   .header-address {
     display: block;
-    margin-top: 20px;
+    padding-top: 20px;
   }
 }
 
