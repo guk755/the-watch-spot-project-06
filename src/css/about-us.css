@@ -40,7 +40,6 @@
 
 .about-us-gif {
   width: 335px;
-	height: 365px;
 }
 
 .about-us-gif {
@@ -107,7 +106,6 @@
 	
 		.about-us-gif {
 			width: 704px;
-			height: 465px;
 		}
 	
 		.about-us-gif {
@@ -131,6 +129,7 @@
 	.container-about-us-wrap {
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-start;
 	}
 
 	.section-about-us-title {
@@ -153,7 +152,6 @@
 	
 		.about-us-gif {
 			width: 892px;
-			height: 500px;
 		}
 	
 		.about-us-gif {
