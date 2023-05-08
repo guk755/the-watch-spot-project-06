@@ -3,15 +3,6 @@
 	padding-bottom: 40px;
 }
 
-.container-about-us-wrap {
-	width: 335px;
-}
-
-.container-about-us-wrap {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-}
 
 .section-about-us-title {
 	font-weight: 600;
@@ -23,7 +14,6 @@
 }
 
 .section-about-us-subtitle-one {
-
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.29;
@@ -51,6 +41,15 @@
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.container-about-us-wrap {
+		width: 335px;
+		}
+	
+	.container-about-us-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
 }
 
 /* tablet */
@@ -65,27 +64,29 @@
 	.container-about-us-wrap {
 		width: 704px;
 	}
+
+	.container-about-us-wrap {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
-.container-about-us-wrap {
-	display: flex;
-	flex-direction: row;
-	gap: 20px;
-}
 
 .section-about-us-title {
 	width: 174px;
+	height: 44px;
+  margin-right: 40px;
 	margin-bottom: 0;
 }
 
 .section-about-us-subtitle-one {
-	width: 250px;
-	margin-bottom: 0;
+	width: 220px;
+  margin-right: 20px;
+	margin-bottom: 40px;
 }
 
 .section-about-us-subtitle-two {
-	width: 220px;
-	margin-bottom: 0;
+	width: 250px;
 }
 
 .section-about-us-title {
