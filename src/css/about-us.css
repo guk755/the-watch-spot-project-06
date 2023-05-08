@@ -3,7 +3,6 @@
 	padding-bottom: 40px;
 }
 
-
 .section-about-us-title {
 	font-weight: 600;
 	font-size: 32px;
@@ -70,8 +69,6 @@
 @media screen and (min-width: 768px) {
 	.container-about-us {
 		width: 768px;
-		padding-left: 32px;
-		padding-right: 32px;
 	}
 
 	.container-about-us-wrap {
@@ -82,49 +79,49 @@
 		display: flex;
 		flex-direction: row;
 	}
-}
 
-
-.section-about-us-title {
-	width: 174px;
-	height: 44px;
-  margin-right: 40px;
-	margin-bottom: 0;
-}
-
-.section-about-us-subtitle-one {
-	width: 220px;
-  margin-right: 20px;
-	margin-bottom: 40px;
-}
-
-.section-about-us-subtitle-two {
-	width: 250px;
-}
-
-.section-about-us-title {
-	font-weight: 600;
-	font-size: 40px;
-	line-height: 1.1;
-	letter-spacing: -0.02em;
-	color: #1E2827;
-}
-
-.about-us-gif {
-	width: 704px;
-	height: 465px;
-}
-
-.about-us-gif {
-	object-fit: cover;
+	.section-about-us-title {
+		width: 174px;
+		height: 44px;
+		margin-right: 40px;
+		margin-bottom: 0;
+	}
+	
+	.section-about-us-subtitle-one {
+		width: 220px;
+		margin-right: 20px;
+		margin-bottom: 40px;
+	}
+	
+	.section-about-us-subtitle-two {
+		width: 250px;
+	}
+	
+		.section-about-us-title {
+			font-weight: 600;
+			font-size: 40px;
+			line-height: 1.1;
+			letter-spacing: -0.02em;
+			color: #1E2827;
+		}
+	
+		.about-us-gif {
+			width: 704px;
+			height: 465px;
+		}
+	
+		.about-us-gif {
+			object-fit: cover;
+		}
 }
 
 /* desctop */
 
 @media screen and (min-width: 1280px) {
 	.container-about-us {
-		padding-left: 132px;
-		padding-right: 132px;
+		width: 1176px;
+		padding-left: 12px;
+		padding-right: 12px;
 	}
 
 	.container-about-us-wrap {
@@ -135,31 +132,31 @@
 		display: flex;
 		flex-direction: row;
 	}
-}
 
-.section-about-us-title {
-	width: 174px;
-	height: 44px;
-	margin-right: 110px;
-	margin-bottom: 0;
-}
-
-.section-about-us-subtitle-one {
-	width: 439px;
-	margin-right: 40px;
-	margin-bottom: 40px;
-}
-
-.section-about-us-subtitle-two {
-	width: 380px;
-	margin-right: 33px;
-}
-
-.about-us-gif {
-	width: 892px;
-	height: 500px;
-}
-
-.about-us-gif {
-	object-fit: cover;
+	.section-about-us-title {
+		width: 174px;
+		height: 44px;
+		margin-right: 110px;
+		margin-bottom: 0;
+	}
+	
+		.section-about-us-subtitle-one {
+			width: 439px;
+			margin-right: 40px;
+			margin-bottom: 40px;
+		}
+	
+		.section-about-us-subtitle-two {
+			width: 380px;
+			margin-right: 33px;
+		}
+	
+		.about-us-gif {
+			width: 892px;
+			height: 500px;
+		}
+	
+		.about-us-gif {
+			object-fit: cover;
+		}
 }
