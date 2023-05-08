@@ -160,11 +160,13 @@ column-gap: 131px;
             width: 768px;
             padding: 0 32px;
         } */
+
 .container-footer {
 max-width: 768px;
 padding-top: 80px;
 padding-bottom: 20px;
 column-gap: 0px;
+
         }
 
 .footer-logo {
@@ -282,7 +284,7 @@ margin-top: 174px;
 
 .footer-copyright {
 max-width: 1176px;
-column-gap: 616px;
+column-gap: 680px;
 }
 
 .footer-wrap-text {
