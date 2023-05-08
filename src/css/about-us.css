@@ -1,6 +1,7 @@
 .container-about {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	margin: auto;
 }
 
 .about-title {
@@ -119,17 +120,17 @@
 
 @media screen and (min-width: 1280px) {
 	.container-about {
-		width: 1176px;
+		width: 1200px;
 		padding-left: 12px;
 		padding-right: 12px;
 	}
 	.container-about {
 		display: flex;
-		margin-left: 132px;
+	
 	}
 
 	.container-about-wrap {
-		width: 859px;
+		width: 892px;
 	}
 
 	.container-about-wrap {
@@ -159,7 +160,7 @@
 		}
 	
 		.about-gif {
-			width: 892px;
+			width: 100%;
 			height: 500px;
 		}
 	
