@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .mobile-menu-backdrop {
     position: fixed;
     top: 0;
@@ -19,6 +20,8 @@
 .mobile-menu-modal {
     display: block;
     position: absolute;
+    /* width: 428px;
+    height: 796px; */
     width: 100%;
     height: 100%;
     top: 50%;
@@ -41,7 +44,6 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 171px;
 }
 
 .mobile-menu-logo {
@@ -70,13 +72,16 @@
 }
 
 .mobile-menu-close-btn {
-   
+    /* position: absolute;
+    top: 24px;
+    right: 24px; */
     position: relative;
     width: 24px;
     height: 24px;
 
     background: transparent;
-
+    /* border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%; */
     border: none;
     cursor: pointer;
     padding: 0;
@@ -86,7 +91,7 @@
 
 .mobile-menu-close-icon {
     position: absolute;
-
+    /* content: ""; */
     width: 12px;
     height: 12px;
     color: #2E2F42;
@@ -120,18 +125,23 @@
     text-transform: uppercase;
     color: #FFFFFF;
 
+    /* position: absolute;
+    left: 40px; */
     text-align: center;
 }
 
 .mobile-menu-item.n1 {
-    margin-bottom: 14px;
+    /* top: 80px; */
+    padding-top: 171px;
 }
 
 .mobile-menu-item.n2 {
-    margin-bottom: 14px;
+    padding-top: 14px;
 }
 
-/* .mobile-menu-item.n3 {
-    margin-bottom: 14px;
-} */
+.mobile-menu-item.n3 {
+    padding-top: 14px;
+}
 
+=======
+>>>>>>> parent of cbd09bb (Merge pull request #10 from guk755/header2)

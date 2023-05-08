@@ -1,117 +1,25 @@
-:root {
-  --transition-duration: 250ms;
-  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.header {
+  padding: 20px 0;
 }
 
-/*428px, 768px і 1158px*/
-
-/* html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body {
-    font-family: 'Epilogue', sans-serif;
-    color: #FFFFFF;
-    background-color: #141414;
-    margin: 0;
-}
-
-textarea {
-    resize: none;
-}
-
-:hover,
-:focus {
-    transition-timing-function: var(--transition-timing-function);
-    transition-duration: var(--transition-duration);
-} */
-
-.header-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.header-link {
-  text-decoration: none;
-}
-
-.header-a {
-  cursor: pointer;
-}
-
-.header-container {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 375px) {
-  .header-container {
-    width: 375px;
-  }
-}
-
-
-@media screen and (min-width: 768px) {
-  .header-container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header-container {
-    width: 1200px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-
-
-/*HEADER*/
-
-header {
-  display: block;
-  background-color: #141414;
-  width: 100%;
-  top: 0;
-  left: 0;
-  /* z-index: 100; */
-}
-
-.header-container {
+.nav-list {
   display: flex;
-  justify-content: space-between;
-  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
 }
 
-.header-nav {
-  display: flex;
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
-.header-logo {
-  display: flex;
-  padding-top: 34px;
-
-  font-family: 'Epilogue', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.0;
-  letter-spacing: -0.03em;
-  color: #FFFFFF;
-
-  text-decoration: none;
+.nav-link:hover,
+.nav-link:focus {
+  color: #747bff;
 }
+<<<<<<< HEAD
 
 .header-logo-img {
   width: 14px;
@@ -210,7 +118,7 @@ header {
 @media screen and (min-width: 768px) {
   .header-address {
     display: block;
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -250,3 +158,5 @@ header {
   }
 }
 
+=======
+>>>>>>> parent of cbd09bb (Merge pull request #10 from guk755/header2)
