@@ -1,9 +1,9 @@
-.container-about-us {
+.container-about {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
-.section-about-us-title {
+.about-title {
 	font-weight: 600;
 	font-size: 32px;
 	line-height: 1.25;
@@ -12,7 +12,7 @@
 	margin-bottom: 40px;
 }
 
-.section-about-us-subtitle-one {
+.about-subtitle-one {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.29;
@@ -20,12 +20,12 @@
 	color: #141414;
 }
 
-.section-about-us-subtitle-one {
+.about-subtitle-one {
 	width: 335px;
 	margin-bottom: 20px;
 }
 
-.section-about-us-subtitle-two {
+.about-subtitle-two {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.29;
@@ -34,29 +34,29 @@
 	margin-bottom: 40px;
 }
 
-.section-about-us-subtitle-two {
+.about-subtitle-two {
 	width: 335px;
 }
 
-.about-us-gif {
+.about-gif {
   width: 335px;
 }
 
-.about-us-gif {
+.about-gif {
 	object-fit: cover;
 }
 
 @media screen and (min-width: 375px) {
-	.container-about-us {
+	.container-about {
 		width: 375px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.container-about-us-wrap {
+	.container-about-wrap {
 		width: 335px;
 		}
 	
-	.container-about-us-wrap {
+	.container-about-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-start;
@@ -66,37 +66,37 @@
 /* tablet */
 
 @media screen and (min-width: 768px) {
-	.container-about-us {
+	.container-about {
 		width: 768px;
 	}
 
-	.container-about-us-wrap {
+	.container-about-wrap {
 		width: 490px;
 	}
 
-	.container-about-us-wrap {
+	.container-about-wrap {
 		display: flex;
 		flex-direction: row;
 	}
 
-	.section-about-us-title {
+	.about-title {
 		width: 174px;
 		height: 44px;
 		margin-right: 40px;
 		margin-bottom: 0;
 	}
 	
-	.section-about-us-subtitle-one {
+	.about-subtitle-one {
 		width: 220px;
 		margin-right: 20px;
 		margin-bottom: 40px;
 	}
 	
-	.section-about-us-subtitle-two {
+	.about-subtitle-two {
 		width: 250px;
 	}
 	
-		.section-about-us-title {
+		.about-title {
 			font-weight: 600;
 			font-size: 40px;
 			line-height: 1.1;
@@ -104,11 +104,11 @@
 			color: #1E2827;
 		}
 	
-		.about-us-gif {
+		.about-gif {
 			width: 704px;
 		}
 	
-		.about-us-gif {
+		.about-gif {
 			object-fit: cover;
 		}
 }
@@ -116,45 +116,45 @@
 /* desctop */
 
 @media screen and (min-width: 1280px) {
-	.container-about-us {
+	.container-about {
 		width: 1176px;
 		padding-left: 12px;
 		padding-right: 12px;
 	}
 
-	.container-about-us-wrap {
+	.container-about-wrap {
 		width: 859px;
 	}
 
-	.container-about-us-wrap {
+	.container-about-wrap {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 	}
 
-	.section-about-us-title {
+	.about-title {
 		width: 174px;
 		height: 44px;
 		margin-right: 110px;
 		margin-bottom: 0;
 	}
 	
-		.section-about-us-subtitle-one {
+		.about-subtitle-one {
 			width: 439px;
 			margin-right: 40px;
 			margin-bottom: 40px;
 		}
 	
-		.section-about-us-subtitle-two {
+		.about-subtitle-two {
 			width: 380px;
 			margin-right: 33px;
 		}
 	
-		.about-us-gif {
+		.about-gif {
 			width: 892px;
 		}
 	
-		.about-us-gif {
+		.about-gif {
 			object-fit: cover;
 		}
 }
