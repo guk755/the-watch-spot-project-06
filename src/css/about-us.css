@@ -74,7 +74,7 @@
 	.container-about-wrap {
 		width: 490px;
 	}
-
+	
 	.container-about-wrap {
 		display: flex;
 		flex-direction: row;
@@ -123,6 +123,10 @@
 		padding-left: 12px;
 		padding-right: 12px;
 	}
+	.container-about {
+		display: flex;
+		margin-left: 132px;
+	}
 
 	.container-about-wrap {
 		width: 859px;
@@ -133,11 +137,14 @@
 		flex-direction: row;
 		justify-content: flex-start;
 	}
+  
+	.container-title {
+	  display: flex;
+	}
 
 	.about-title {
 		width: 174px;
 		height: 44px;
-		margin-right: 110px;
 		margin-bottom: 0;
 	}
 	
@@ -149,7 +156,6 @@
 	
 		.about-subtitle-two {
 			width: 380px;
-			margin-right: 33px;
 		}
 	
 		.about-gif {
