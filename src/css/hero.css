@@ -113,14 +113,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0 32px;
-  }
-
   .section-container-hero {
     display: flex;
     flex-wrap: wrap;
+    width: 768px;
+    padding: 0 32px;
   }
 
   .section-hero {
@@ -167,6 +164,16 @@
     padding: 0;
     width: 248px;
     height: 108px;
+  }
+
+  .icon-btn-prev-tab-des {
+    width: 24px;
+    height: 24px;
+  }
+
+  .icon-btn-next-tab-des {
+    width: 24px;
+    height: 24px;
   }
 }
 
