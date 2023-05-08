@@ -144,9 +144,11 @@ row-gap: 14px;
 }
 
 @media screen and (min-width: 375px) {
+
 .container-footer {
 max-width: 375px;
-/* column-gap: 131px; */
+padding-left: 12px;
+padding-right: 12px;
     }
 
 .footer-cont-wrap {
@@ -156,18 +158,17 @@ column-gap: 131px;
 
 
 @media screen and (min-width: 768px) {
-/* .container {
-            width: 768px;
-            padding: 0 32px;
-        } */
 
 .container-footer {
 max-width: 768px;
 padding-top: 80px;
 padding-bottom: 20px;
+padding-left: 12px;
+padding-right: 12px;
 column-gap: 0px;
 
         }
+
 
 .footer-logo {
 display: none;
@@ -186,6 +187,7 @@ width: 81px;
 margin-top: 0px;
 margin-bottom: 0px;
 gap: 16px;
+margin-right: 20px;
         }
 
 .wrap-footer-contact {
@@ -200,11 +202,12 @@ column-gap: 200px;
         }
 
 .footer-text {
-max-width: 279px;
 font-size: 14px;
-line-height: 1.33;
+line-height: 1.29;
         }
-
+.footer-paragraph{
+max-width: 279px;
+}
 .footer-nav-item:not(:last-child) {
 margin-bottom: 18px;
         }
@@ -272,11 +275,17 @@ width: 1176px;
 max-width: 1176px;
 padding-top: 104px;
 padding-bottom: 32px;
+padding-left: 0px;
+padding-right: 0px;
+
         }
 
 .footer-nav-list {
 width: 115px;
         }
+.footer-soc-list{
+    margin-right: 0px;
+}
 
 .footer-copyright {
 margin-top: 174px;
