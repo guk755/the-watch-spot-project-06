@@ -1,29 +1,29 @@
 /* MOBILE */
 
-.container-about {
+.container-about-us {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 @media screen and (min-width: 375px) {
-	.container-about {
+	.container-about-us {
 		width: 375px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 }
 
-.container-about-wrap {
+.container-about-us-wrap {
 	width: 335px;
 }
 
-.container-about-wrap {
+.container-about-us-wrap {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
-.section-about-title {
+.section-about-us-title {
 	font-weight: 600;
 	font-size: 32px;
 	line-height: 1.25;
@@ -32,7 +32,7 @@
 	margin-bottom: 40px;
 }
 
-.section-about-subtitle-one {
+.section-about-us-subtitle-one {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.29;
@@ -41,7 +41,7 @@
 	margin-bottom: 20px;
 }
 
-.section-about-subtitle-two {
+.section-about-us-subtitle-two {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.29;
@@ -50,7 +50,7 @@
 	margin-bottom: 40px;
 }
 
-.about-gif {
+.about-us-gif {
 	object-fit: cover;
 }
 
@@ -58,47 +58,50 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-.container {
+.container-about-us {
 	width: 768px;
 	padding-left: 32px;
 	padding-right: 32px;
 	}
+.container-about-us-wrap {
+	width: 704px;
+	}
 }
 
 /* @media screen and (min-width: 768px) {
-	.about > .container-about,
+	.about > .container-about-us,
 	.container-about-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 40px;
 	}
 }    */
-.container-about-wrap {
+.container-about-us-wrap {
 	width: 704px;
 }
 
-/* .container-about-wrap {
+/* .container-about-us-wrap {
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
 }   */
 
-.section-about-title {
+.section-about-us-title {
 	  width: 174px;
 		margin-bottom: 0;
 }
 
-.section-about-subtitle-one {
+.section-about-us-subtitle-one {
 		width: 250px;
 		margin-bottom: 0;
 }
 
-.section-about-subtitle-two {
+.section-about-us-subtitle-two {
 		width: 220px;
 		margin-bottom: 0;
 }
 
-.section-about-title {
+.section-about-us-title {
   width: 174px;
 	font-weight: 600;
 	font-size: 40px;
@@ -110,7 +113,7 @@
 /* DESCTOP */
 
 @media screen and (min-width: 1280px) {
-.container {
+.container-about-us {
 		width: 1176px;
 		padding: 0 132px;
 	  }
