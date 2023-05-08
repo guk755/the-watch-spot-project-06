@@ -35,13 +35,13 @@
     z-index: 1000;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 34px;
 }
 
 .mobile-menu-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 82px;
     width: 100%;
 }
 

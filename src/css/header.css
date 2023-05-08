@@ -100,8 +100,7 @@ header {
 
 .header-logo {
   display: flex;
-  height: 19px;
-  margin-top: 34px;
+  padding-top: 34px;
 
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
