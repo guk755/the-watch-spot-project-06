@@ -106,6 +106,13 @@
   stroke: rgba(255, 255, 255);
 }
 
+.swiper-pagination-current {
+  margin-right: 6px;
+}
+.swiper-pagination-total {
+  margin-left: 6px;
+}
+
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
