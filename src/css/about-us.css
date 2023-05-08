@@ -19,6 +19,10 @@
 	line-height: 1.29;
 	letter-spacing: -0.02em;
 	color: #141414;
+}
+
+.section-about-us-subtitle-one {
+	width: 335px;
 	margin-bottom: 20px;
 }
 
@@ -29,6 +33,15 @@
 	letter-spacing: -0.02em;
 	color: #141414;
 	margin-bottom: 40px;
+}
+
+.section-about-us-subtitle-two {
+	width: 335px;
+}
+
+.about-us-gif {
+  width: 335px;
+	height: 365px;
 }
 
 .about-us-gif {
@@ -97,6 +110,56 @@
 	color: #1E2827;
 }
 
+.about-us-gif {
+	width: 704px;
+	height: 465px;
+}
 
+.about-us-gif {
+	object-fit: cover;
+}
 
+/* desctop */
 
+@media screen and (min-width: 1280px) {
+	.container-about-us {
+		padding-left: 132px;
+		padding-right: 132px;
+	}
+
+	.container-about-us-wrap {
+		width: 1176px;
+	}
+
+	.container-about-us-wrap {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.section-about-us-title {
+	width: 174px;
+	height: 44px;
+	margin-right: 110px;
+	margin-bottom: 0;
+}
+
+.section-about-us-subtitle-one {
+	width: 439px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+.section-about-us-subtitle-two {
+	width: 380px;
+	margin-right: 33px;
+}
+
+.about-us-gif {
+	width: 892px;
+	height: 500px;
+}
+
+.about-us-gif {
+	object-fit: cover;
+}
