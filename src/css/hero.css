@@ -58,6 +58,7 @@
 .swiper-pagination {
   display: flex;
   position: relative;
+  bottom: 0;
 }
 
 .button-prev,
