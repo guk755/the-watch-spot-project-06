@@ -73,6 +73,8 @@
 		width: 768px;
 		padding-top: 64px;
 		padding-bottom: 64px;
+		padding-left: 32px;
+		padding-right: 32px;
 	}
 
 	.container-about-wrap {
@@ -88,10 +90,11 @@
 
 	.about-title {
 		width: 174px;
-		margin-right: 40px;
 		margin-bottom: 0;
 	}
-  
+	  .about-title-wrap {
+			margin-right: 40px;
+		}
 	.about-subtitle-one {
 		width: 220px;
 		height: 100%;
@@ -113,7 +116,7 @@
 		}
 	
 		.about-gif {
-			width: 100%;
+			width: 704px;
 			height: 465px;
 		}
 	
@@ -132,7 +135,7 @@
 	}
 	
 	.container-about-wrap {
-		width: 892px;
+		width: 1176px;
 		margin-left: auto;
 	}
 
@@ -148,6 +151,12 @@
 		margin-bottom: 0;
 	}
 	
+		.about-title-wrap {
+			display: flex;
+			justify-content: flex-start;
+			margin-right: 110px;
+		}
+
 		.about-subtitle-one {
 			width: 439px;
 			height: 100%;
