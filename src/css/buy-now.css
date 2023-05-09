@@ -1,9 +1,9 @@
 .backdrop {
   position: fixed;
-  top: -20px;
+  top: 0px;
   height: 100%;
   width: 100%;
-  z-index: 100;
+  background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 1s linear, visibility 1s linear;
 }
 .is-hidden {
