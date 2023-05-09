@@ -59,7 +59,6 @@ textarea {
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .header-container {
     width: 768px;
@@ -75,7 +74,6 @@ textarea {
     padding-right: 12px;
   }
 }
-
 
 /*HEADER*/
 
@@ -106,9 +104,9 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.0;
+  line-height: 1;
   letter-spacing: -0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 
   text-decoration: none;
 }
@@ -116,7 +114,7 @@ header {
 .header-logo-img {
   width: 14px;
   height: 14px;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .header-logo-text {
@@ -124,13 +122,12 @@ header {
   padding-top: 2px;
 }
 
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header-logo-img {
-      width: 19px;
-      height: 19px;
+    width: 19px;
+    height: 19px;
   }
 }
-
 
 .header-menu {
   display: none;
@@ -145,17 +142,15 @@ header {
 
 .header-menu-item:not(:last-child) {
   margin-right: 40px;
-
 }
 
-.header-menu-item{
+.header-menu-item {
   padding-top: 38px;
   padding-bottom: 18px;
 }
 
 .header-menu-link {
   display: block;
- 
 
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
@@ -165,9 +160,8 @@ header {
 
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -180,7 +174,6 @@ header {
   background-color: #404bbf;
   transition: all var(--transition-duration) var(--transition-timing-function);
 }
-
 
 /*contacts*/
 
@@ -195,13 +188,13 @@ header {
   font-weight: 400;
   font-size: 9px;
   line-height: 1.3;
-  
+
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  
-  color: #FFFFFF;
-  background-color: #1E2827;
+
+  color: #ffffff;
+  background-color: #1e2827;
   border-radius: 8px;
   padding: 18px 35px;
   cursor: pointer;
@@ -220,8 +213,6 @@ header {
   transition: all var(--transition-duration) var(--transition-timing-function);
 }
 
-
-
 .mobile-menu-open-button {
   position: absolute;
   top: 25px;
@@ -235,13 +226,13 @@ header {
 
 .mobile-menu-open-icon {
   position: absolute;
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
@@ -249,4 +240,3 @@ header {
     display: none;
   }
 }
-
