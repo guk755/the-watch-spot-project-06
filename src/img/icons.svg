@@ -16,7 +16,8 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M27.787 6.147a7.326 7.326 0 0 0-10.373 0L16.001 7.56l-1.413-1.413a7.333 7.333 0 0 0-10.374 0 7.333 7.333 0 0 0 0 10.374l11.787 11.787 11.787-11.787a7.345 7.345 0 0 0 2.15-5.187 7.33 7.33 0 0 0-2.15-5.187z"/>
     </symbol>
     <symbol id="icon-close" viewBox="0 0 32 32">
-      <path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M24 8l-16 16"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 8l16 16"></path>
     </symbol>
     <symbol id="icon-facebook-big" viewBox="0 0 32 32">
       <path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.800000011920929" d="M19.52 4.64h0.96v3.6h-1.2c-0.48 0-0.96 0-1.2 0.24s-0.24 0.48-0.24 1.040v1.28h2.64v3.040h-2.64v13.2h-4.080v-13.28h-2.16v-3.040h2.16v-1.040c0-1.76 0.24-3.040 0.72-3.6 0.72-1.040 2.16-1.52 4.32-1.52 0.24 0.080 0.48 0.080 0.72 0.080z"></path>
