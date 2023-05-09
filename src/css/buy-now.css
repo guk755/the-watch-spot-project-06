@@ -3,6 +3,7 @@
   top: 0px;
   height: 100%;
   width: 100%;
+  z-index: 5;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 1s linear, visibility 1s linear;
 }
@@ -206,6 +207,16 @@ input:not(:placeholder-shown):required:invalid {
     max-width: 335px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .backdrop {
+    overflow-y: auto;
+  }
+
+  .modal-block2-form {
+    margin: auto;
   }
 }
 
