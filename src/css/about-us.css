@@ -71,6 +71,8 @@
 @media screen and (min-width: 768px) {
 	.container-about {
 		width: 768px;
+		padding-top: 64px;
+		padding-bottom: 64px;
 	}
 
 	.container-about-wrap {
@@ -128,10 +130,7 @@
 		padding-left: 12px;
 		padding-right: 12px;
 	}
-	/* .container-about {
-		display: flex;
-	} */
-
+	
 	.container-about-wrap {
 		width: 892px;
 		margin-left: auto;
