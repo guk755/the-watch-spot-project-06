@@ -114,7 +114,7 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .section-container-hero {
     width: 375px;
   }
 }
