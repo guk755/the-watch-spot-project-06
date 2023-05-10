@@ -94,6 +94,7 @@ header {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -137,6 +138,7 @@ header {
 @media screen and (min-width: 768px) {
   .header-menu {
     display: flex;
+    padding-top: 38px;
   }
 }
 
@@ -144,10 +146,10 @@ header {
   margin-right: 40px;
 }
 
-.header-menu-item {
+/* .header-menu-item {
   padding-top: 38px;
   padding-bottom: 18px;
-}
+} */
 
 .header-menu-link {
   display: block;
