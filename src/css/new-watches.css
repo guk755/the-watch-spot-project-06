@@ -1,7 +1,7 @@
 /* MOBILE */
 .container-new {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin: auto;
@@ -23,9 +23,6 @@
 	color: #141414;
 }
 
-/* .new-item {
-	width: 100%;
-} */
 
 @media screen and (min-width: 375px) {
 	.container-new {
