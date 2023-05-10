@@ -19,7 +19,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #141414;
-  max-width: 335px;
+  width: 335px;
   margin-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@
   letter-spacing: -0.02em;
   color: #141414;
   margin-bottom: 40px;
-  max-width: 335px;
+  width: 335px;
 }
 
 .about-gif {
